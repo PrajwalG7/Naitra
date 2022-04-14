@@ -91,8 +91,9 @@ class _TakePictureScreenState extends State<TakePictureScreen> {
         children: <Widget>[
           Center(
             child: Container(
-              height: 180.0,
-              width: 180.0,
+              margin: EdgeInsets.only(left: 29),
+              height: 150.0,
+              width: 160.0,
               child: FittedBox(
                 child: FloatingActionButton(
                   child: Icon(Icons.camera_alt),
